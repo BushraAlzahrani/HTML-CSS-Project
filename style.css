@@ -1,0 +1,80 @@
+
+#homepage-body {
+    background-image: linear-gradient(to bottom , #bd49bd, #FBD6D2);
+}
+
+#contactmepage-body{
+    background-image: url(background-image.png);
+    background-position: center;
+    background-repeat: no-reapeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+
+/* div for homepage and contact me page*/
+div {
+    font-family: 'Oswald', sans-serif; /* font from googl fonts*/
+    max-width: 500px;
+    margin: auto;
+    position: relative;
+  }
+
+  
+  hr {
+    border-top: 6px dotted rgb(114, 96, 96);
+
+  }
+
+  /* contact table in homepage */
+  #firsttable, td {
+    border: 1px double rgb(91, 83, 83);
+    text-align: center;
+    width: 100%;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* user information table in home page */
+  #secondtable, .secondtabledata {
+    border: 1px double rgb(91, 83, 83);
+    text-align: left;
+    width: 100%;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+ textarea{
+    width: 100%;
+ }
+
+ #divform {
+    text-align: center;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  /* button style for homepage and contact me page */
+  button {
+    border: none;
+    background-color: rgb(244, 105, 63);
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px;
+    border-radius: 8px ;
+    cursor: pointer;
+  }
+
+  /* button div for homepage and contact me page to center the button */
+  .buttondiv {
+    margin: 0;
+    position: absolute;
+    padding-left: 190px;
+    
+  }
